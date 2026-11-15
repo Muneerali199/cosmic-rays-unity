@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/CosmicRays/Scenes/Prologue.unity
+    guid: 221c82174b8784950a10e1f13c68b58a
+  - enabled: 1
+    path: Assets/CosmicRays/Scenes/MainMenu.unity
+    guid: cee0b3d68abaa45f9bf9cf0edbd02cd5
+  - enabled: 1
+    path: Assets/CosmicRays/Scenes/Gameplay.unity
+    guid: 7b792c004ddb84fa4967c2368c9823b0
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0

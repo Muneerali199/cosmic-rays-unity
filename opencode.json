@@ -1,0 +1,23 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "unity": {
+        "type": "local",
+        "command": [
+          "/usr/local/bin/unity",
+          "mcp",
+          "--tool-groups",
+          "--cli-tools",
+          "--project-path",
+          "/Users/macbook/Desktop/cosmic-rays-unity"
+        ],
+        "timeout": {
+          "startup": 30000,
+          "catalog": 30000,
+          "execution": 120000
+        }
+      }
+    }
+  }
+}

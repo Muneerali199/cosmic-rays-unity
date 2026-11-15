@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee661682db8349099a91ec26debfc07, type: 3}
+  m_Name: SurvivalConfig
+  m_EditorClassIdentifier: Assembly-CSharp::SurvivalConfig
+  minimumOxygen: 0
+  minimumWater: 0
+  minimumEnergy: 0
+  maximumOxygen: 100
+  maximumWater: 100
+  maximumEnergy: 100
+  startingOxygen: 100
+  startingWater: 100
+  startingEnergy: 100
+  oxygenUsePerSecond: 0.02
+  waterUsePerSecond: 0.01
+  energyUsePerSecond: 0.015
+  warningThreshold: 0.25
+  failMissionWhenResourceIsEmpty: 1
+  startingInventory:
+  - itemId: oxygen_canister
+    quantity: 2
+  - itemId: water_ration
+    quantity: 2
+  - itemId: energy_cell
+    quantity: 2
